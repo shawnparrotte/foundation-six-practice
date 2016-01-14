@@ -87,6 +87,7 @@
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
+	z-index: 300;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
