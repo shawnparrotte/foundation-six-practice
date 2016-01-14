@@ -63,7 +63,7 @@
 
   /* testimonials */
 
-  #testimonial-wrapper {width: 400px;}
+  #testimonial-wrapper {width: 380px;}
   #clients, #google-reviews {font-size: 22px;}
 
   #skip-pic {
@@ -82,7 +82,7 @@
 
   /* ready */
 
-  #ready {display: inline-block;width: 350px;margin: 40px 10px;}
+  #ready {display: inline-block;width: 300px;margin: 40px 10px;}
 
 }
 
@@ -135,5 +135,5 @@
     line-height: 22px;
     margin-left: -15px;
   }
-  
+
 }
