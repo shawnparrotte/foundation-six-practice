@@ -87,13 +87,13 @@
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
 	border-radius: 20px;
-	z-index: 300;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
 	background: #F0F2F2;
 	border: solid 2px white;
+	z-index: 300;
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
