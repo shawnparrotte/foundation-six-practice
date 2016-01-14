@@ -1,0 +1,333 @@
+/* Global */
+
+a {
+  color: black;
+}
+
+/* Menu */
+
+#menu-bar-background {background-color: #f0f2f2;}
+#menu-wrapper {width: 1000px;padding: 12px 10px;}
+#menu-wrapper div {padding-left: 0;padding-right: 0;}
+#hannush-logo {width: 166.5px;margin-top: 5px;}
+#link-wrapper .link {text-align: center;}
+
+.links {margin-left: -32px;margin-top: 8px;}
+.link-spacer {width: 12px;display: inline-block;}
+.links a {
+  font-family: "Roboto Condensed";
+  font-size: 13px;
+  color: black;
+  padding-bottom: 2px;
+}
+.links a:hover {
+  color: #0091CC;
+}
+
+#lets-get-started {width: 176.4px;margin-left: 10px;}
+#top-search {width: 42.8px;margin-left: -40px;}
+#sales-support p {
+  margin: 4px 0 0 -40px;
+  line-height: 14px;
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  color: #7D7B7B;
+}
+
+/* Hero */
+
+#hero-carousel-background {
+  background-image: url("../img/bokeh-wallpaper.jpg");
+  height: 435px;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#hero-content {width: 1000px;}
+#pc-tablet-phone {margin-top: 20px;}
+
+#header {
+  margin-top: 115px;
+  margin-left: -66px;
+  font-family: "Roboto";
+  font-size: 36px;
+  color: #F0F2F2;
+}
+
+.body-text {
+  font-family: "Roboto";
+  margin-left: -66px;
+  font-size: 13px;
+  color: #454242;
+  margin-bottom: 2px;
+}
+
+#expand-box {
+  margin-left: -66px;
+  width: 8%;
+  margin-top: 20px;
+}
+
+#button-wrapper {
+  width: 1000px;
+}
+
+#btn-wrapper {text-align: center;}
+.c-btn {margin: -20px 4px 0 4px;width: 16px;}
+
+/* What we do */
+
+#what-we-do-background {
+  height: 280px;
+  background-color: #262223;
+  text-align: center;
+}
+
+#help {
+  font-family: "Roboto";
+  font-size: 34px;
+  color: #F0F2F2;
+  padding-top: 30px;
+}
+
+#services-wrapper {width: 1000px;}
+.what-do img {margin-top: 30px;width: 50%;}
+#e-commerce {margin-top: 30px;width: 64%;}
+
+/* Shopping cart solutions */
+
+#shopping-cart-solutions-background {height: 280px; background-color: #3F3C3C;}
+#cart-wrapper {width: 1000px;}
+#cart-wrapper div{text-align: center;}
+#customized {
+  font-family: "Roboto";
+  font-size: 28px;
+  color: #00B9F2;
+  padding-top: 30px;
+}
+.body-2-text {
+  font-family: "Roboto";
+  color: white;
+  font-size: 13px;
+  margin: 3px;
+}
+
+#learn-more {width: 15%; margin-top: 30px;}
+
+/* Recent work */
+
+#rw, #rwb {width: 1000px;text-align: center;}
+
+#work {
+  text-align: center;
+  font-family: "Roboto";
+  color: #3F3C3C;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 34px;
+}
+
+.fleeex-vertical {
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fleeex-horizontal {
+  display: flex;
+  justify-content: center;
+}
+
+#work-row-1, #work-row-2{width: 1030px;text-align: center;}
+
+#image-1{
+  height: 300px;
+  width: 300px;
+  background-image: url("../img/cityscape.jpg");
+  background-size: 531px 300px;
+  background-position: center top;
+  transition: background-size .3s;
+  margin: 5px;
+}
+
+#image-2{
+  height: 300px;
+  width: 300px;
+  background-image: url("../img/bark.jpg");
+  background-size: 450px 300px;
+  background-position: center;
+  transition: background-size .3s;
+  margin: 5px;
+}
+
+#image-3{
+  height: 300px;
+  width: 400px;
+  background-image: url("../img/under-the-sea.jpg");
+  background-size: 972px 600px;
+  background-position: center bottom;
+  transition: background-size .3s;
+  margin: 5px;
+}
+
+#image-4{
+  height: 300px;
+  width: 400px;
+  background-image: url("../img/business-hands.jpg");
+  background-size: 900px 600px;
+  background-position: center;
+  transition: background-size .3s;
+  margin: 5px;
+}
+
+#image-5{
+  height: 300px;
+  width: 300px;
+  background-image: url("../img/naturescape.jpg");
+  background-size: 450px 300px;
+  background-position: center top;
+  transition: background-size .3s;
+  margin: 5px;
+}
+
+#image-6{
+  height: 300px;
+  width: 300px;
+  background-image: url("../img/interior.jpg");
+  background-size: 450px 300px;
+  background-position: center bottom;
+  transition: background-size .3s;
+  margin: 5px;
+}
+
+#image-1:hover {background-size: 708px 400px;}
+#image-2:hover {background-size: 600px 400px;}
+#image-3:hover {background-size: 1296px 800px;}
+#image-4:hover {background-size: 1200px 800px;}
+#image-5:hover {background-size: 600px 400px;}
+#image-6:hover {background-size: 600px 400px;}
+
+#image-1 div div img {width: 185px;height: 46px;}
+#image-2 div div img {width: 125px;height: 80px;}
+#image-3 div div img {width: 139px;height: 115px;}
+#image-4 div div img {width: 293.4px;height: 40px;}
+#image-5 div div img {width: 130px;height: 80px;}
+#image-6 div div img {width: 110px;height: 110px;}
+
+#view-portfolio {
+  margin: 30px 0 45px 0;
+  display: inline-block;
+  width: 18%;
+}
+
+/* Education */
+
+#education-background {
+  background-color: #F0F2F2;
+  padding-bottom: 50px;
+}
+
+#education-wrapper {
+  width: 1000px;
+}
+
+#education-wrapper h2 {
+  font-size: 27px;
+  font-family: "Roboto";
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border-bottom: solid 2px #0091CC;
+}
+
+#education-wrapper p {
+  font-size: 13px;
+  font-family: "Roboto";
+  line-height: 25px;
+}
+
+#mock-video {
+  margin-bottom: 16px;
+}
+
+.expander {
+  width: 40px;
+}
+
+/* Testimonials */
+
+#testimonial-wrapper {
+  width: 1000px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#clients, #google-reviews {
+  font-family: "Roboto";
+  font-size: 28px;
+  border-bottom: solid 2px #0091CC;
+  display: inline-block;
+}
+
+.b-btn {
+  display: inline-block;
+  width: 16px;
+  margin: 14px 3px 0;
+}
+
+#skip-pic {
+  height: 125px;
+  width: 125px;
+  background-image: url("../img/skip-pic.png");
+  background-size: 186px 150px;
+  background-position: right;
+  margin: 10px 0;
+}
+
+#skip-testimonial {
+  margin: 10px 0;
+  font-family: "Roboto";
+  font-size: 13px;
+  line-height: 25px;
+}
+
+#sandy-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  margin: 10px 0;
+}
+
+#sandy-info {
+  margin: 10px 0;
+  font-family: "Roboto";
+  font-size: 13px;
+  line-height: 15px;
+  margin: 15px 0 0 -15px;
+}
+
+#five-stars {
+  margin: 20px 0 0 -20px;
+}
+
+#sandy-testimonial {
+  margin: 10px 0;
+  font-family: "Roboto";
+  font-size: 13px;
+  line-height: 25px;
+}
+
+#sandy-blue {
+  color: #0091CC;
+}
+
+/* Are you ready? */
+
+#ready-background {
+  background-color: #0091CC;
+  text-align: center;
+}
+
+#ready-wrapper {width: 1000px;text-align: center;}
+#ready {display: inline-block;width: 400px;margin: 40px;}
