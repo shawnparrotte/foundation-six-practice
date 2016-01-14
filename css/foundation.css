@@ -972,7 +972,7 @@ body {
   -moz-osx-font-smoothing: grayscale; }
 
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   -ms-interpolation-mode: bicubic;
   display: inline-block;

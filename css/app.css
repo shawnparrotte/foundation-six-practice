@@ -7,10 +7,12 @@ a {
 /* Menu */
 
 #menu-bar-background {background-color: #f0f2f2;}
-#menu-wrapper {width: 1000px;padding: 12px 10px;}
+#menu-wrapper {padding: 12px 10px;width: 1024px;}
 #menu-wrapper div {padding-left: 0;padding-right: 0;}
-#hannush-logo {width: 166.5px;margin-top: 5px;}
+#hannush-logo {width: 166.5px;margin-top: 3px;}
 #link-wrapper .link {text-align: center;}
+
+
 
 .links {margin-left: -32px;margin-top: 8px;}
 .link-spacer {width: 12px;display: inline-block;}
@@ -78,9 +80,12 @@ a {
 /* What we do */
 
 #what-we-do-background {
-  height: 280px;
   background-color: #262223;
   text-align: center;
+}
+
+#services-wrapper {
+  padding-bottom: 40px;
 }
 
 #help {
@@ -90,14 +95,12 @@ a {
   padding-top: 30px;
 }
 
-#services-wrapper {width: 1000px;}
 .what-do img {margin-top: 30px;width: 50%;}
 #e-commerce {margin-top: 30px;width: 64%;}
 
 /* Shopping cart solutions */
 
-#shopping-cart-solutions-background {height: 280px; background-color: #3F3C3C;}
-#cart-wrapper {width: 1000px;}
+#shopping-cart-solutions-background {background-color: #3F3C3C;}
 #cart-wrapper div{text-align: center;}
 #customized {
   font-family: "Roboto";
@@ -112,11 +115,17 @@ a {
   margin: 3px;
 }
 
-#learn-more {width: 15%; margin-top: 30px;}
+#learn-more-wrapper {
+  text-align: center;
+  box-shadow: 0 5px 5px #BBB;
+}
+#learn-more {width: 175px; margin-top: 30px;margin-bottom: 40px;display: inline-block;}
 
 /* Recent work */
 
-#rw, #rwb {width: 1000px;text-align: center;}
+#rw {text-align: center;}
+
+#rwb {text-align: center;}
 
 #work {
   text-align: center;
@@ -218,7 +227,7 @@ a {
 #view-portfolio {
   margin: 30px 0 45px 0;
   display: inline-block;
-  width: 18%;
+  width: 175px;
 }
 
 /* Education */
@@ -226,11 +235,10 @@ a {
 #education-background {
   background-color: #F0F2F2;
   padding-bottom: 50px;
+  box-shadow: 0 0 20px #BBB;
 }
 
-#education-wrapper {
-  width: 1000px;
-}
+#education-wrapper {width: 1024px;}
 
 #education-wrapper h2 {
   font-size: 27px;
@@ -247,20 +255,17 @@ a {
   line-height: 25px;
 }
 
-#mock-video {
-  margin-bottom: 16px;
-}
-
-.expander {
-  width: 40px;
-}
+#mock-video {margin-bottom: 16px;}
+.expander {width: 40px;}
 
 /* Testimonials */
 
 #testimonial-wrapper {
-  width: 1000px;
+  max-width: 1024px;
   margin-top: 40px;
   margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
 }
 
 #clients, #google-reviews {
@@ -268,6 +273,11 @@ a {
   font-size: 28px;
   border-bottom: solid 2px #0091CC;
   display: inline-block;
+}
+
+#b-btn-container {
+  text-align: right;
+  padding-right: 60px;
 }
 
 .b-btn {
@@ -286,10 +296,11 @@ a {
 }
 
 #skip-testimonial {
-  margin: 10px 0;
+  margin: 10px 0 10px -30px;
   font-family: "Roboto";
   font-size: 13px;
   line-height: 25px;
+  padding: 0 10px;
 }
 
 #sandy-pic {
@@ -307,9 +318,7 @@ a {
   margin: 15px 0 0 -15px;
 }
 
-#five-stars {
-  margin: 20px 0 0 -20px;
-}
+#five-stars {margin: 20px 0 0 -20px;}
 
 #sandy-testimonial {
   margin: 10px 0;
@@ -318,9 +327,7 @@ a {
   line-height: 25px;
 }
 
-#sandy-blue {
-  color: #0091CC;
-}
+#sandy-blue {color: #0091CC;}
 
 /* Are you ready? */
 
@@ -329,5 +336,26 @@ a {
   text-align: center;
 }
 
-#ready-wrapper {width: 1000px;text-align: center;}
-#ready {display: inline-block;width: 400px;margin: 40px;}
+#ready-wrapper {text-align: center;}
+#ready {display: inline-block;width: 400px;margin: 40px 10px;}
+
+/* XXXXXXXXXXXXXX */
+
+#hamburger:hover {cursor: pointer;}
+
+#jPanelMenu-menu {
+  background-color: #f0f2f2;
+  background: linear-gradient(#f0f2f2,#3F3C3C);
+  margin: 0;
+  padding: 0;
+}
+
+#jPanelMenu-menu a {
+  background-color: #f0f2f2;
+  display: block;
+  padding: 10px 0 10px 20px;
+  box-shadow: 0 2px 2px #666;
+  border-bottom: #333 solid 1px;
+}
+
+#jPanelMenu-menu .link-spacer {display: inherit;}
