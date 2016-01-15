@@ -137,10 +137,7 @@ a {
 }
 
 .fleeex-vertical {
-  display: flex;
   height: 300px;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .fleeex-horizontal {
@@ -342,6 +339,10 @@ a {
 /* XXXXXXXXXXXXXX */
 
 #hamburger:hover {cursor: pointer;}
+
+.bx-prev, .bx-next {
+  display: none;
+}
 
 #jPanelMenu-menu {
   background-color: #f0f2f2;
