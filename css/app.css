@@ -137,7 +137,10 @@ a {
 }
 
 .fleeex-vertical {
+  display: flex;
+  flex-direction: column;
   height: 300px;
+  justify-content: center;
 }
 
 .fleeex-horizontal {
