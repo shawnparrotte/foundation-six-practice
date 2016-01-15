@@ -50,12 +50,12 @@
     justify-content: center;
   }
 
-  #image-1{height: 150px;width: 400px;margin-left: 0;}
-  #image-2{height: 150px;width: 400px;margin-left: 0;}
-  #image-3{height: 150px;width: 400px;margin-left: 0;}
-  #image-4{height: 150px;width: 400px;margin-left: 0;}
-  #image-5{height: 150px;width: 400px;margin-left: 0;}
-  #image-6{height: 150px;width: 400px;margin-left: 0;}
+  #image-1{height: 150px;max-width: 400px;margin-left: 0;}
+  #image-2{height: 150px;max-width: 400px;margin-left: 0;}
+  #image-3{height: 150px;max-width: 400px;margin-left: 0;}
+  #image-4{height: 150px;max-width: 400px;margin-left: 0;}
+  #image-5{height: 150px;max-width: 400px;margin-left: 0;}
+  #image-6{height: 150px;max-width: 400px;margin-left: 0;}
 
   /* education */
 
@@ -63,13 +63,14 @@
 
   /* testimonials */
 
-  #testimonial-wrapper {max-width: 400px;}
+  #testimonial-wrapper {max-width: 500px;}
   #clients, #google-reviews {font-size: 22px;}
 
   #skip-pic {
     height: 100px;
     width: 100px;
     background-position: center;
+    margin-right: 50px;
   }
 
   #skip-testimonial {
